@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Asteroid
+  - Collectable
+  - Checkpoint
+  - Fire
+  - SideWall
+  - Bullet
+  - Deadzone
+  - Enemy
+  - SpeedBoost
+  - ShieldBoost
+  - ScoreMultiplier
+  - ShieldPowerUp
+  - DataRepo
+  - DeathWall
+  - SlimThrusterColorButton
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - IgnoreCollision
+  - UIObject
+  - UICamera
+  - Grid
+  - Shield
+  - Effect
+  - Asteroid
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

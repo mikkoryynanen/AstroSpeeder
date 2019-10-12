@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: 79d523df829b05c459c1215ce890216d
+timeCreated: 1456221494
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Customization_UI_Folder_Edge
+    21300002: Customization_UI_Folder_Edge(2)
+    21300004: Customization_UI_FolderTop
+    21300006: Customization_UI_FolderBottom
+    21300008: Customization_UI_FolderHelper
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Customization_UI_FolderTop
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 1022
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 404, y: 66.5}
+        - {x: 405, y: 65.5}
+        - {x: 439, y: 27.5}
+        - {x: 438, y: -127.5}
+        - {x: 488, y: -127.5}
+        - {x: 511, y: -101.5}
+        - {x: 511, y: -3.5}
+        - {x: 504, y: 61.5}
+        - {x: 502, y: 66.5}
+        - {x: 439, y: 127.5}
+        - {x: 353, y: 127.5}
+        - {x: 350, y: 125.5}
+        - {x: 340, y: 115.5}
+        - {x: -337, y: 115.5}
+        - {x: -349, y: 127.5}
+        - {x: -438, y: 127.5}
+        - {x: -501, y: 64.5}
+        - {x: -503, y: -5.5}
+        - {x: -508, y: -9.5}
+        - {x: -511, y: -11.5}
+        - {x: -511, y: -98.5}
+        - {x: -500, y: -111.5}
+        - {x: -486, y: -127.5}
+        - {x: -437, y: -127.5}
+        - {x: -436, y: -125.5}
+        - {x: -436, y: 24.5}
+        - {x: -396, y: 66.5}
+    - name: Customization_UI_FolderBottom
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 1024
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 355, y: -128}
+        - {x: 436, y: -128}
+        - {x: 438, y: -127}
+        - {x: 503, y: -64}
+        - {x: 505, y: 6}
+        - {x: 512, y: 10}
+        - {x: 512, y: 100}
+        - {x: 502, y: 112}
+        - {x: 487, y: 128}
+        - {x: 438, y: 128}
+        - {x: 436, y: 63}
+        - {x: 438, y: -24}
+        - {x: 399, y: -65}
+        - {x: 399, y: -66}
+        - {x: -402, y: -66}
+        - {x: -403, y: -65}
+        - {x: -437, y: -27}
+        - {x: -436, y: 128}
+        - {x: -486, y: 128}
+        - {x: -512, y: 101}
+        - {x: -512, y: 9}
+        - {x: -503, y: 7}
+        - {x: -503, y: -61}
+        - {x: -438, y: -128}
+        - {x: -345, y: -128}
+        - {x: -338, y: -115}
+        - {x: 339, y: -115}
+        - {x: 348, y: -125}
+    - name: Customization_UI_FolderHelper
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 284
+        width: 1024
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -502, y: 105}
+        - {x: -512, y: 86}
+        - {x: -512, y: -97}
+        - {x: -511, y: -105}
+        - {x: -438, y: -105}
+        - {x: -437, y: -102}
+        - {x: -437, y: 105}
+      - - {x: 510, y: 59}
+        - {x: 503, y: 99}
+        - {x: 498, y: 105}
+        - {x: 439, y: 105}
+        - {x: 438, y: 102}
+        - {x: 438, y: -102}
+        - {x: 439, y: -105}
+        - {x: 500, y: -105}
+        - {x: 508, y: -91}
+        - {x: 512, y: -62}
+        - {x: 512, y: 58}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

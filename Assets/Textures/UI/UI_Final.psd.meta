@@ -1,0 +1,368 @@
+fileFormatVersion: 2
+guid: 9ef801c06182d564b891aa9ac7f210bd
+timeCreated: 1464959005
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TimeBackground
+    21300002: ShieldBar
+    21300004: ShieldBarBackground
+    21300006: TravelledDistanceBackground
+    21300008: SpeedometerBackground
+    21300010: TimeClockLogo
+    21300012: ScoreBackground
+    21300014: SpeedometerSpeedIndicatorBackground
+    21300016: SpeedometerSpeedIndicatorFill
+    21300018: UI_ShopIcon
+    21300020: SpeedText
+    21300022: SuperShieldText
+    21300024: SuperShieldBar
+    21300026: SuperShieldBackground
+    21300028: Background_Left
+    21300030: Background_Right
+    21300032: Infonews
+    21300034: Submit_Button
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ShieldBar
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 72
+        width: 346
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -173, y: 19}
+        - {x: -173, y: -19}
+        - {x: 173, y: -19}
+        - {x: 173, y: 19}
+    - name: ShieldBarBackground
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 531
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 210.5, y: 30.5}
+        - {x: 174.5, y: 30.5}
+        - {x: -174.5, y: 26.5}
+        - {x: -174.5, y: 30.5}
+        - {x: -212.5, y: 30.5}
+        - {x: -265.5, y: -24.5}
+        - {x: -265.5, y: -28.5}
+        - {x: 263.5, y: -28.5}
+        - {x: 265.5, y: -26.5}
+        - {x: 265.5, y: -22.5}
+    - name: SpeedometerBackground
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 75
+        width: 345
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -146.5, y: 36.5}
+        - {x: -149.5, y: 33.5}
+        - {x: -160.5, y: 23.5}
+        - {x: -170.5, y: 2.5}
+        - {x: -170.5, y: -30.5}
+        - {x: -72.5, y: -37.5}
+        - {x: 156.5, y: -37.5}
+        - {x: 170.5, y: 18.5}
+        - {x: 170.5, y: 33.5}
+        - {x: 169.5, y: 36.5}
+    - name: ScoreBackground
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 822
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5957283, y: 0.5578705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -482.68866, y: 47.055542}
+        - {x: -485.68866, y: 44.055542}
+        - {x: -485.68866, y: 39.055542}
+        - {x: -483.68866, y: 35.055542}
+        - {x: -479.68866, y: 29.055542}
+        - {x: -459.68866, y: 0.055541992}
+        - {x: -455.68866, y: -6.944458}
+        - {x: -451.68866, y: -12.944458}
+        - {x: -427.68866, y: -47.944458}
+        - {x: -423.68866, y: -54.944458}
+        - {x: -418.68866, y: -58.944458}
+        - {x: -2.6886597, y: -58.944458}
+        - {x: 0.31134033, y: -55.944458}
+        - {x: 0.31134033, y: 44.055542}
+        - {x: -2.6886597, y: 47.055542}
+      - - {x: 318.31134, y: 30.055542}
+        - {x: 318.31134, y: 31.055542}
+        - {x: 324.31134, y: 39.055542}
+        - {x: 324.31134, y: 44.055542}
+        - {x: 321.31134, y: 47.055542}
+        - {x: 13.31134, y: 47.055542}
+        - {x: 10.31134, y: 44.055542}
+        - {x: 10.31134, y: -55.944458}
+        - {x: 13.31134, y: -58.944458}
+        - {x: 257.31134, y: -58.944458}
+        - {x: 262.31134, y: -53.944458}
+    - name: UI_ShopIcon
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 5
+        width: 268
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87, y: -75}
+        - {x: 106, y: 31}
+        - {x: 134, y: 64}
+        - {x: 134, y: 102}
+        - {x: 61, y: 102}
+        - {x: 51, y: 100}
+        - {x: 60, y: 74}
+        - {x: -117, y: 73}
+        - {x: -122, y: 71}
+        - {x: -122, y: -46}
+        - {x: -119, y: -74}
+        - {x: -95, y: -108}
+        - {x: -41, y: -108}
+        - {x: -31, y: -95}
+        - {x: 11, y: -108}
+        - {x: 66, y: -108}
+    - name: SpeedText
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 974
+        width: 152
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62, y: 18}
+        - {x: -71, y: 18}
+        - {x: -73, y: 15}
+        - {x: -73, y: -2}
+        - {x: -70, y: -5}
+        - {x: -68, y: -5}
+        - {x: -70, y: -5}
+        - {x: -73, y: -7}
+        - {x: -73, y: -15}
+        - {x: 68, y: -15}
+        - {x: 73, y: -10}
+        - {x: 73, y: 11}
+    - name: SuperShieldText
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 170
+        width: 325
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 18}
+        - {x: -156.5, y: 18}
+        - {x: -156.5, y: -3}
+        - {x: -151.5, y: -3}
+        - {x: -153.5, y: -3}
+        - {x: -156.5, y: -5}
+        - {x: -156.5, y: -10}
+        - {x: -155.5, y: -13}
+        - {x: -20.5, y: -13}
+        - {x: -20.5, y: 15}
+      - - {x: -5.5, y: 18}
+        - {x: -5.5, y: -3}
+        - {x: -0.5, y: -3}
+        - {x: -2.5, y: -3}
+        - {x: -5.5, y: -5}
+        - {x: -5.5, y: -13}
+        - {x: 151.5, y: -13}
+        - {x: 153.5, y: -11}
+        - {x: 153.5, y: 18}
+    - name: SuperShieldBar
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 176
+        width: 334
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 145, y: 18}
+        - {x: -167, y: 18}
+        - {x: -167, y: 12}
+        - {x: -152, y: -16}
+        - {x: -145, y: -18}
+        - {x: 166, y: -18}
+        - {x: 167, y: -17}
+        - {x: 167, y: -12}
+        - {x: 149, y: 15}
+    - name: SuperShieldBackground
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 123
+        width: 341
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -170.5, y: 8.5}
+        - {x: -148.5, y: -20.5}
+        - {x: 170.5, y: -20.5}
+        - {x: 170.5, y: -7.5}
+        - {x: 153.5, y: 21.5}
+        - {x: -167.5, y: 21.5}
+        - {x: -170.5, y: 19.5}
+    - name: Background_Left
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 795
+        width: 412
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 187, y: -17.5}
+        - {x: 143, y: 48.5}
+        - {x: 139, y: 51.5}
+        - {x: -203, y: 51.5}
+        - {x: -205, y: 50.5}
+        - {x: -205, y: 47.5}
+        - {x: -204, y: 43.5}
+        - {x: -179, y: 7.5}
+        - {x: -147, y: -39.5}
+        - {x: -140, y: -48.5}
+        - {x: 203, y: -48.5}
+        - {x: 205, y: -47.5}
+        - {x: 205, y: -44.5}
+        - {x: 204, y: -41.5}
+    - name: Background_Right
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 797
+        width: 416
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 202, y: 50.5}
+        - {x: -140, y: 50.5}
+        - {x: -146, y: 44.5}
+        - {x: -151, y: 38.5}
+        - {x: -201, y: -36.5}
+        - {x: -206, y: -47.5}
+        - {x: -204, y: -49.5}
+        - {x: 139, y: -49.5}
+        - {x: 143, y: -48.5}
+        - {x: 204, y: 44.5}
+        - {x: 204, y: 48.5}
+    - name: Infonews
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 417
+        width: 881
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -415.5, y: 184.5}
+        - {x: -440.5, y: 159.5}
+        - {x: -440.5, y: -184.5}
+        - {x: 440.5, y: -184.5}
+        - {x: 440.5, y: 160.5}
+        - {x: 416.5, y: 184.5}
+    - name: Submit_Button
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 234
+        width: 575
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -287.5, y: 80.5}
+        - {x: -287.5, y: -35.5}
+        - {x: -242.5, y: -80.5}
+        - {x: 287.5, y: -80.5}
+        - {x: 287.5, y: 33.5}
+        - {x: 240.5, y: 80.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: b6d08c2f912406944a243781197b4011
+timeCreated: 1448632841
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ButtonBackground
+    21300002: GameOverStatBackground
+    21300004: GameOverAchievementBackground
+    21300006: GameOverSkinBackground
+    21300008: PauseHeaderBackground
+    21300010: PauseLowerBackground
+    21300012: PauseUpperBackground
+    21300014: Store_CreditsBackground
+    21300016: Store_CustomColorBox
+    21300018: Store_EmissivePowerSlider
+    21300020: Store_Slider
+    21300022: Premium_Currency
+    21300024: Credits
+    21300026: Store_ButtonSelected
+    21300028: Store_ButtonUnselected
+    21300030: Store_Marker
+    21300032: Store_Arrow
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ButtonBackground
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 639
+        width: 649
+        height: 169
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GameOverStatBackground
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 1024
+        height: 368
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PauseHeaderBackground
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 1024
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PauseLowerBackground
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101
+        width: 1024
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PauseUpperBackground
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 1022
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Store_CreditsBackground
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 812
+        width: 372
+        height: 193
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Store_CustomColorBox
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 870
+        width: 152
+        height: 154
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Store_EmissivePowerSlider
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 815
+        width: 259
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Store_Slider
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 984
+        width: 103
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 1, z: 0, w: 0}
+    - name: Premium_Currency
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 870
+        width: 114
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Credits
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 878
+        width: 103
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Store_ButtonSelected
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 623
+        width: 374
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Store_ButtonUnselected
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 737
+        width: 374
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Store_Marker
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 850
+        width: 373
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Store_Arrow
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 875
+        width: 277
+        height: 148
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

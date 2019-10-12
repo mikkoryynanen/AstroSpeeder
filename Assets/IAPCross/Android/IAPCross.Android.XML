@@ -1,0 +1,539 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IAPCross.Android</name>
+    </assembly>
+    <members>
+        <member name="T:IAPC.Android.Core.IAPCross">
+            <summary>
+            In App Purchase for Android
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Core.IAPCross.Version">
+            <summary>
+            IAPCross version number
+            </summary>
+        </member>
+        <member name="M:IAPC.Android.Core.IAPCross.Dispose">
+            <summary>
+            Dispose IAPCross instance.
+            </summary>
+        </member>
+        <member name="M:IAPC.Android.Core.IAPCross.Connect(System.String[],System.String)">
+            <summary>
+            Try to connect Google Play
+            </summary>
+            <param name="skus">Product Ids list</param>
+            <param name="base64EncodedPublicKey">The public key present in your Android Developer Console.Go https://play.google.com/apps/publish/ </param>
+            <exception cref="T:System.NullReferenceException">skus can not NULL</exception>
+            <exception cref="T:System.NullReferenceException">base64EncodedPublicKey can not NULL or Empty</exception>
+        </member>
+        <member name="M:IAPC.Android.Core.IAPCross.LoadInventory">
+            <summary>
+            Load purchases and product details.
+            </summary>
+        </member>
+        <member name="M:IAPC.Android.Core.IAPCross.Consume(System.String)">
+            <summary>
+            Consume the pruchase.You can not consume "subscribe" product. When purchase complete succesfully after call this function.
+            Once purchased,managed or unmanged item cannot be purchased again until you consume the item, by sending a consumption request to Google Play.
+            More details : http://developer.android.com/google/play/billing/api.html#consume
+            </summary>
+            <param name="sku">product Id</param>
+            <exception cref="T:System.NullReferenceException">sku can not NULL or Empty</exception>
+        </member>
+        <member name="M:IAPC.Android.Core.IAPCross.Purchase(System.String)">
+            <summary>
+            Try to buy in-app product
+            </summary>
+            <param name="sku">Product Id</param>
+            <exception cref="T:System.NullReferenceException">sku can not NULL or Empty</exception>
+        </member>
+        <member name="M:IAPC.Android.Core.IAPCross.Purchase(System.String,System.String)">
+            <summary>
+            Try to buy in-app  product
+            </summary>
+            <param name="sku">Product Id</param>
+            <param name="developerPayload">Developer verify parametre.this is used to pass in a string token that uniquely identifies this purchase request. 
+            If you specify a string value, Google Play returns this string along with the purchase response. </param>
+            <exception cref="T:System.NullReferenceException">sku can not NULL or Empty</exception>
+        </member>
+        <member name="M:IAPC.Android.Core.IAPCross.Subscribe(System.String)">
+            <summary>
+            Try to subscribe product
+            </summary>
+            <param name="sku">Product Id</param>
+            <exception cref="T:System.NullReferenceException">sku can not NULL or Empty</exception>
+        </member>
+        <member name="M:IAPC.Android.Core.IAPCross.Subscribe(System.String,System.String)">
+            <summary>
+            Try to subscribe product. 
+            </summary>
+            <param name="sku">Product Id</param>
+            <param name="developerPayload">Developer verify parametre.this is used to pass in a string token that uniquely identifies this purchase request. 
+            If you specify a string value, Google Play returns this string along with the purchase response. </param>
+            <exception cref="T:System.NullReferenceException">sku can not NULL or Empty</exception>
+        </member>
+        <member name="M:IAPC.Android.Core.IAPCross.GetSkuDetail(System.String)">
+            <summary>
+            Get product Details by product Id
+            </summary>
+            <param name="sku">Product Id</param>
+            <returns>It will return product details , if can not find it will be return NULL</returns>
+        </member>
+        <member name="M:IAPC.Android.Core.IAPCross.GetPurchase(System.String)">
+            <summary>
+            Get Purchase data by product Id
+            </summary>
+            <param name="sku">Product Id</param>
+            <returns>It will be return purchase data , if can not find it will be return NULL</returns>
+        </member>
+        <member name="M:IAPC.Android.Core.IAPCross.IsProductSubscribed(System.String)">
+            <summary>
+            Check product is subscribed.
+            </summary>
+            <param name="sku">Product Id</param>
+            <returns>If product is subscribed , it will be return true</returns>
+        </member>
+        <member name="E:IAPC.Android.Core.IAPCross.OnConnectCompleteEvent">
+            <summary>
+            When Connection is completed ,this event will be call
+            </summary>
+        </member>
+        <member name="E:IAPC.Android.Core.IAPCross.OnPurchaseCompleteEvent">
+            <summary>
+            When purchase is completed this event will be call
+            </summary>
+        </member>
+        <member name="E:IAPC.Android.Core.IAPCross.OnInventoryLoadCompleteEvent">
+            <summary>
+            When Inventory load or refreh is  completed ,this event will be call
+            </summary>
+        </member>
+        <member name="E:IAPC.Android.Core.IAPCross.OnConsumeCompleteEvent">
+            <summary>
+            When consume operation complete , this event will be call
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Core.IAPCross.FakeResultInEditor">
+            <summary>
+            If not None. It will return fake result int Editor.If you dont run in Editor all the time this value is None.
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Core.IAPCross.IsDebugEnable">
+            <summary>
+            If enable IAPCross is debuged all operations.
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Core.IAPCross.Purchases">
+            <summary>
+            All purchases list
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Core.IAPCross.Products">
+            <summary>
+            All Product List
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Core.IAPCross.IsConsumeInProgress">
+            <summary>
+            Check consume operation is continue
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Core.IAPCross.IsConnectInProgress">
+            <summary>
+            Check connect operation is continue
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Core.IAPCross.IsConnected">
+            <summary>
+            Check connect complete with successful.
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Core.IAPCross.IsInventoryLoadInProgress">
+            <summary>
+            Check Inventory load operation is continue
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Core.IAPCross.IsInventoryLoaded">
+            <summary>
+            Check Inventory load complete with successful
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Core.IAPCross.IsPuchaseInProgress">
+            <summary>
+            Check subscribe or purchase operation is continue
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Core.IAPCross.Instance">
+            <summary>
+            Get Instance of IAPCross
+            </summary>
+        </member>
+        <member name="T:IAPC.Android.Core.IAPCross.FakeResults">
+            <summary>
+            Fake Results In Editor
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Core.IAPCross.FakeResults.None">
+            <summary>
+            Disable fake Result
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Core.IAPCross.FakeResults.Success">
+            <summary>
+            Purchase and Consume result all time success
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Core.IAPCross.FakeResults.Failed">
+            <summary>
+            Purchase and Consume result all time failed
+            </summary>
+        </member>
+        <member name="T:IAPC.Android.Core.IAPCross.OnConnectCompleteDel">
+            <summary>
+            Connection Complete Delegate
+            </summary>
+            <param name="result">Result of operation. Check is success or failed</param>
+        </member>
+        <member name="T:IAPC.Android.Core.IAPCross.OnPurchaseCompleteDel">
+            <summary>
+            Purchase Complete Delegate
+            </summary>
+            <param name="result">Result of operation. Check is success or failed</param>
+            <param name="purchase">If result is failed , purchase will be  NULL</param>
+        </member>
+        <member name="T:IAPC.Android.Core.IAPCross.OnInventoryLoadCompleteDel">
+            <summary>
+            Inventory load or refresh Complete Delegate
+            </summary>
+            <param name="result">Result of operation. Check is success or failed</param>
+            <param name="purchases">List of  purchase datas.</param>
+            <param name="products">List of product details</param>
+        </member>
+        <member name="T:IAPC.Android.Core.IAPCross.OnConsumeCompleteDel">
+            <summary>
+            Consume operation Complete Delegate
+            </summary>
+            <param name="result">Result of operation. Check is success or failed</param>
+            <param name="purchase">If result is failed , purchase will be  NULL</param>
+        </member>
+        <member name="T:IAPC.Android.Util.IAPCrossResult">
+            <summary>
+            Operation Complete Result View Model
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.IAPCrossResult.Response">
+            <summary>
+            Billing operation complete code.
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.IAPCrossResult.Message">
+            <summary>
+            Operation result message
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.IAPCrossResult.IsSuccess">
+            <summary>
+            Check is operation completed succesfully
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.IAPCrossResult.IsFailed">
+            <summary>
+            Check operation is failed
+            </summary>
+        </member>
+        <member name="T:IAPC.Android.Util.IAPCrossResult.BillingResponseResults">
+            <summary>
+            Billing response result. More info here : http://developer.android.com/google/play/billing/billing_reference.html
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.IAPCrossResult.BillingResponseResults.BILLING_RESPONSE_RESULT_OK">
+            <summary>
+            Purchase is success
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.IAPCrossResult.BillingResponseResults.BILLING_RESPONSE_RESULT_USER_CANCELED">
+            <summary>
+            User pressed back or canceled a dialog
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.IAPCrossResult.BillingResponseResults.BILLING_RESPONSE_RESULT_SERVICE_UNAVAILABLE">
+            <summary>
+            Network connection is down
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.IAPCrossResult.BillingResponseResults.BILLING_RESPONSE_RESULT_BILLING_UNAVAILABLE">
+            <summary>
+            Billing API version is not supported for the type requested
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.IAPCrossResult.BillingResponseResults.BILLING_RESPONSE_RESULT_ITEM_UNAVAILABLE">
+            <summary>
+            Requested product is not available for purchase
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.IAPCrossResult.BillingResponseResults.BILLING_RESPONSE_RESULT_DEVELOPER_ERROR">
+            <summary>
+            Invalid arguments provided to the API. This error can also indicate that the application was not correctly signed or properly set up for In-app Billing in Google Play, 
+            or does not have the necessary permissions in its manifest
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.IAPCrossResult.BillingResponseResults.BILLING_RESPONSE_RESULT_ERROR">
+            <summary>
+            Fatal error during the API action
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.IAPCrossResult.BillingResponseResults.BILLING_RESPONSE_RESULT_ITEM_ALREADY_OWNED">
+            <summary>
+            Failure to purchase since item is already owned
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.IAPCrossResult.BillingResponseResults.BILLING_RESPONSE_RESULT_ITEM_NOT_OWNED">
+            <summary>
+            Failure to consume since item is not owned
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.IAPCrossResult.BillingResponseResults.IABHELPER_ERROR_BASE">
+            <summary>
+            Error occur in native java
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.IAPCrossResult.BillingResponseResults.IABHELPER_REMOTE_EXCEPTION">
+            <summary>
+            Error occur in Google Play remote
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.IAPCrossResult.BillingResponseResults.IABHELPER_BAD_RESPONSE">
+            <summary>
+            Bad response data .Data not parsed.
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.IAPCrossResult.BillingResponseResults.IABHELPER_VERIFICATION_FAILED">
+            <summary>
+            Verify is failed.
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.IAPCrossResult.BillingResponseResults.IABHELPER_SEND_INTENT_FAILED">
+            <summary>
+            Intent data can not handled
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.IAPCrossResult.BillingResponseResults.IABHELPER_USER_CANCELLED">
+            <summary>
+            User pressed back or canceled a dialog
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.IAPCrossResult.BillingResponseResults.IABHELPER_UNKNOWN_PURCHASE_RESPONSE">
+            <summary>
+            Unknown purchase response data
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.IAPCrossResult.BillingResponseResults.IABHELPER_MISSING_TOKEN">
+            <summary>
+            Purchase token can not missing
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.IAPCrossResult.BillingResponseResults.IABHELPER_UNKNOWN_ERROR">
+            <summary>
+            Unknown error occur
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.IAPCrossResult.BillingResponseResults.IABHELPER_SUBSCRIPTIONS_NOT_AVAILABLE">
+            <summary>
+            Subscribtion failed.
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.IAPCrossResult.BillingResponseResults.IABHELPER_INVALID_CONSUMPTION">
+            <summary>
+            Consume is invalid
+            </summary>
+        </member>
+        <member name="T:IAPC.Android.Core.Json">
+             <summary>
+             This class encodes and decodes JSON strings.
+             Spec. details, see http://www.json.org/
+            
+             JSON uses Arrays and Objects. These correspond here to the datatypes IList and IDictionary.
+             All numbers are parsed to doubles.
+             </summary>
+        </member>
+        <member name="M:IAPC.Android.Core.Json.Deserialize(System.String)">
+            <summary>
+            Parses the string json into a value
+            </summary>
+            <param name="json">A JSON string.</param>
+            <returns>An List&lt;object&gt;, a Dictionary&lt;string, object&gt;, a double, an integer,a string, null, true, or false</returns>
+        </member>
+        <member name="M:IAPC.Android.Core.Json.Serialize(System.Object)">
+            <summary>
+            Converts a IDictionary / IList object or a simple type (string, int, etc.) into a JSON string
+            </summary>
+            <param name="obj">A Dictionary&lt;string, object&gt; / List&lt;object&gt;</param>
+            <returns>A JSON encoded string, or null if object 'json' is not serializable</returns>
+        </member>
+        <member name="T:IAPC.Android.Util.Purchase">
+            <summary>
+            Purchase data View Model
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.Purchase.AutoRenewing">
+            <summary>
+            Indicates whether the subscription renews automatically. 
+            If true, the subscription is active, and will automatically renew on the next billing date. 
+            If false, indicates that the user has canceled the subscription.
+            The user has access to subscription content until the next billing date and will lose access at that time unless they re-enable automatic renewal
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.Purchase.ItemTypeByEnum">
+            <summary>
+            Item Type with Purchase.ItemTypes
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.Purchase.ItemType">
+            <summary>
+            Value must be “inapp” for an in-app product or "subs" for subscriptions.
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.Purchase.OrderId">
+            <summary>
+            A unique order identifier for the transaction. This identifier corresponds to the Google Wallet Order ID.
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.Purchase.PackageName">
+            <summary>
+            The application package from which the purchase originated.
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.Purchase.ProductId">
+            <summary>
+            The item's product identifier. Every item has a product ID, which you must specify in the application's product list on the Google Play Developer Console.
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.Purchase.PurchaseTimeByUTCDateTime">
+            <summary>
+            When Purchase complete time at UTC time.
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.Purchase.PurchaseTimeByLocalDateTime">
+            <summary>
+            When Purchase complete time at user local time.
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.Purchase.PurchaseTime">
+            <summary>
+            The time the product was purchased, in milliseconds since the epoch (Jan 1, 1970).
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.Purchase.PurchaseState">
+            <summary>
+            The purchase state of the order. Possible values are 0 (purchased), 1 (canceled), or 2 (refunded).
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.Purchase.DeveloperPayload">
+            <summary>
+            A developer-specified string that contains supplemental information about an order. You can specify a value for this field when you make a getBuyIntent request.
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.Purchase.Token">
+            <summary>
+            A token that uniquely identifies a purchase for a given item and user pair.
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.Purchase.OriginalJson">
+            <summary>
+            Full google play purchase response data.
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.Purchase.Signature">
+            <summary>
+            Signature of purchase
+            </summary>
+        </member>
+        <member name="T:IAPC.Android.Util.Purchase.ItemTypes">
+            <summary>
+            Item types can be Inapp or Subs . Inapp : Unmanaged or managed products , Subs : Subscrition products.
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.Purchase.ItemTypes.Inapp">
+            <summary>
+            In app product.Unmanaged or managed product can be Inapp
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.Purchase.ItemTypes.Subs">
+            <summary>
+            Subscribe product. Subs can be only for subscribe product.
+            </summary>
+        </member>
+        <member name="T:IAPC.Android.Util.Purchase.PurchaseStates">
+            <summary>
+            Purhcase States Status.
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.Purchase.PurchaseStates.Purchased">
+            <summary>
+            Product purchased 
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.Purchase.PurchaseStates.Canceled">
+            <summary>
+            Product canceled by user.
+            </summary>
+        </member>
+        <member name="F:IAPC.Android.Util.Purchase.PurchaseStates.Refunded">
+            <summary>
+            Product refunded by user.
+            </summary>
+        </member>
+        <member name="T:IAPC.Android.Util.SkuDetail">
+            <summary>
+            Product Details View Model .more Detail here : http://developer.android.com/google/play/billing/billing_reference.html
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.SkuDetail.PriceCurrenyCode">
+            <summary>
+            ISO 4217 currency code for price. For example, if price is specified in British pounds sterling, price_currency_code is "GBP". Ex : USD,EUR,TRY
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.SkuDetail.PriceAmountMicros">
+            <summary>
+            Price in micro-units, where 1,000,000 micro-units equal one unit of the currency. For example, if price is "€7.99", price_amount_micros is "7990000".
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.SkuDetail.ItemType">
+            <summary>
+            Item type can be inapp or subs.
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.SkuDetail.ProductId">
+            <summary>
+            The product ID for the product.
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.SkuDetail.Type">
+            <summary>
+            Value must be “inapp” for an in-app product or "subs" for subscriptions.
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.SkuDetail.Price">
+            <summary>
+            Formatted price of the item, including its currency sign. The price does not include tax. Ex: USD 15.00, TRY 20.00
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.SkuDetail.Title">
+            <summary>
+            Title of product.It can be set here: http://play.google.com/apps/publish/
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.SkuDetail.Description">
+            <summary>
+            Description of product.It can be set here: http://play.google.com/apps/publish/
+            </summary>
+        </member>
+        <member name="P:IAPC.Android.Util.SkuDetail.OrginalJson">
+            <summary>
+            Full google play skudetail response data.
+            </summary>
+        </member>
+    </members>
+</doc>

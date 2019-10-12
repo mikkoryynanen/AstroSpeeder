@@ -1,0 +1,1033 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &103040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 458044}
+  m_Layer: 0
+  m_Name: AsteroidSpawnPoint_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &114306
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 456230}
+  m_Layer: 0
+  m_Name: PickUpSpawnPoint_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &118162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 424742}
+  - 33: {fileID: 3352010}
+  - 65: {fileID: 6550938}
+  - 23: {fileID: 2348850}
+  m_Layer: 0
+  m_Name: AsteroidDeactivator
+  m_TagString: Deadzone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &119610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 498632}
+  - 114: {fileID: 11410762}
+  - 114: {fileID: 11470028}
+  m_Layer: 0
+  m_Name: FixedEndlessmanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &129474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 417604}
+  m_Layer: 0
+  m_Name: AsteroidSpawnPoint_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &132718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425114}
+  - 114: {fileID: 11490716}
+  m_Layer: 0
+  m_Name: PickUpSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &134210
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 464338}
+  m_Layer: 0
+  m_Name: PickUpSpawnPoint_7
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &139684
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 482754}
+  m_Layer: 0
+  m_Name: PickUpSpawnPoint_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &140464
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 497654}
+  m_Layer: 0
+  m_Name: PickUpSpawnPoint_9
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &147178
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 438060}
+  m_Layer: 0
+  m_Name: PickUpSpawnPoint_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &151460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 444046}
+  m_Layer: 0
+  m_Name: AsteroidSpawnPoint_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &157702
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 416762}
+  m_Layer: 0
+  m_Name: PickUpSpawnPoint_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &161100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 445766}
+  m_Layer: 0
+  m_Name: AsteroidSpawnPoint_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &162266
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 427424}
+  m_Layer: 0
+  m_Name: PickUpSpawnPoint_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &170774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 452040}
+  m_Layer: 0
+  m_Name: AsteroidSpawnPoint_7
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &174846
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 426206}
+  m_Layer: 0
+  m_Name: PickUpSpawnPoint_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &176274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 411406}
+  m_Layer: 0
+  m_Name: AsteroidSpawnPoint_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &179066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 491160}
+  m_Layer: 0
+  m_Name: AsteroidSpawnPoint_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &189446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 472962}
+  m_Layer: 0
+  m_Name: AsteroidSpawnPoint_9
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &190484
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400862}
+  m_Layer: 0
+  m_Name: PickUpSpawnPoint_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &193586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 436524}
+  m_Layer: 0
+  m_Name: AsteroidSpawnPoint_8
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400862
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190484}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.000002324581}
+  m_LocalPosition: {x: -30.1, y: 0, z: 20.5}
+  m_LocalScale: {x: 1, y: 1.7325042, z: 0.3139309}
+  m_Children: []
+  m_Father: {fileID: 425114}
+  m_RootOrder: 0
+--- !u!4 &411406
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176274}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.000002324581}
+  m_LocalPosition: {x: 0, y: -9.33, z: 60.19997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 498632}
+  m_RootOrder: 4
+--- !u!4 &416762
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157702}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.000002324581}
+  m_LocalPosition: {x: -40.1, y: 0, z: 20.5}
+  m_LocalScale: {x: 1, y: 1.7325042, z: 0.3139309}
+  m_Children: []
+  m_Father: {fileID: 425114}
+  m_RootOrder: 8
+--- !u!4 &417604
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129474}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.000002324581}
+  m_LocalPosition: {x: -10, y: -9.33, z: 60.19997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 498632}
+  m_RootOrder: 3
+--- !u!4 &424742
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -3.89, z: -958.58}
+  m_LocalScale: {x: 71.52439, y: 19.30139, z: 6.4630814}
+  m_Children: []
+  m_Father: {fileID: 498632}
+  m_RootOrder: 10
+--- !u!4 &425114
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 132718}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -9.292907, z: -948.64}
+  m_LocalScale: {x: 1, y: 0.57719916, z: 3.1854146}
+  m_Children:
+  - {fileID: 400862}
+  - {fileID: 427424}
+  - {fileID: 438060}
+  - {fileID: 482754}
+  - {fileID: 426206}
+  - {fileID: 456230}
+  - {fileID: 464338}
+  - {fileID: 497654}
+  - {fileID: 416762}
+  m_Father: {fileID: 498632}
+  m_RootOrder: 9
+--- !u!4 &426206
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174846}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.000002324581}
+  m_LocalPosition: {x: 10, y: 0, z: 20.5}
+  m_LocalScale: {x: 1, y: 1.7325042, z: 0.3139309}
+  m_Children: []
+  m_Father: {fileID: 425114}
+  m_RootOrder: 4
+--- !u!4 &427424
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 162266}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.000002324581}
+  m_LocalPosition: {x: -20, y: 0, z: 20.5}
+  m_LocalScale: {x: 1, y: 1.7325042, z: 0.3139309}
+  m_Children: []
+  m_Father: {fileID: 425114}
+  m_RootOrder: 1
+--- !u!4 &436524
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193586}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.000002324581}
+  m_LocalPosition: {x: 30.1, y: -9.33, z: 60.19997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 498632}
+  m_RootOrder: 7
+--- !u!4 &438060
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147178}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.000002324581}
+  m_LocalPosition: {x: -10, y: 0, z: 20.5}
+  m_LocalScale: {x: 1, y: 1.7325042, z: 0.3139309}
+  m_Children: []
+  m_Father: {fileID: 425114}
+  m_RootOrder: 2
+--- !u!4 &444046
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151460}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.000002324581}
+  m_LocalPosition: {x: 10, y: -9.33, z: 60.19997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 498632}
+  m_RootOrder: 5
+--- !u!4 &445766
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161100}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.000002324581}
+  m_LocalPosition: {x: -30.1, y: -9.33, z: 60.19997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 498632}
+  m_RootOrder: 1
+--- !u!4 &452040
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170774}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.000002324581}
+  m_LocalPosition: {x: 20, y: -9.33, z: 60.19997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 498632}
+  m_RootOrder: 6
+--- !u!4 &456230
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114306}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.000002324581}
+  m_LocalPosition: {x: 20, y: 0, z: 20.5}
+  m_LocalScale: {x: 1, y: 1.7325042, z: 0.3139309}
+  m_Children: []
+  m_Father: {fileID: 425114}
+  m_RootOrder: 5
+--- !u!4 &458044
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103040}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.000002324581}
+  m_LocalPosition: {x: -40.1, y: -9.33, z: 60.19997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 498632}
+  m_RootOrder: 0
+--- !u!4 &464338
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134210}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.000002324581}
+  m_LocalPosition: {x: 30.1, y: 0, z: 20.5}
+  m_LocalScale: {x: 1, y: 1.7325042, z: 0.3139309}
+  m_Children: []
+  m_Father: {fileID: 425114}
+  m_RootOrder: 6
+--- !u!4 &472962
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189446}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.000002324581}
+  m_LocalPosition: {x: 40.1, y: -9.33, z: 60.19997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 498632}
+  m_RootOrder: 8
+--- !u!4 &482754
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139684}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.000002324581}
+  m_LocalPosition: {x: 0, y: 0, z: 20.5}
+  m_LocalScale: {x: 1, y: 1.7325042, z: 0.3139309}
+  m_Children: []
+  m_Father: {fileID: 425114}
+  m_RootOrder: 3
+--- !u!4 &491160
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179066}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.000002324581}
+  m_LocalPosition: {x: -20, y: -9.33, z: 60.19997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 498632}
+  m_RootOrder: 2
+--- !u!4 &497654
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 140464}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.000002324581}
+  m_LocalPosition: {x: 40.1, y: 0, z: 20.5}
+  m_LocalScale: {x: 1, y: 1.7325042, z: 0.3139309}
+  m_Children: []
+  m_Father: {fileID: 425114}
+  m_RootOrder: 7
+--- !u!4 &498632
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119610}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 16.1, z: 1099}
+  m_LocalScale: {x: 1, y: 1.7325042, z: 1.1585006}
+  m_Children:
+  - {fileID: 458044}
+  - {fileID: 445766}
+  - {fileID: 491160}
+  - {fileID: 417604}
+  - {fileID: 411406}
+  - {fileID: 444046}
+  - {fileID: 452040}
+  - {fileID: 436524}
+  - {fileID: 472962}
+  - {fileID: 425114}
+  - {fileID: 424742}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &2348850
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118162}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3352010
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118162}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &6550938
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118162}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11410762
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5bd642b5774a74382debc88adf9b0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeBetweenAsteroids: 0.75
+  spawnableObjects:
+  - {fileID: 135490, guid: f6dd7faa6ecb63a4d91ac3113d358697, type: 2}
+  - {fileID: 111796, guid: 374e280d1a1d338418a5abe640c01622, type: 2}
+  - {fileID: 148210, guid: 83717d727c7a65c4ab7e523199ba5a8d, type: 2}
+  - {fileID: 185190, guid: c797bb0ba76953143b11629bcc475007, type: 2}
+  - {fileID: 130056, guid: 9c905e719c83df74ebdc6c6a769bed1f, type: 2}
+  - {fileID: 155294, guid: 291339a3dea3636419c5f04854d1c946, type: 2}
+  pickUps:
+  - {fileID: 185032, guid: 9af8c51b39ac4df4bbec40309be7f811, type: 2}
+  - {fileID: 155294, guid: 291339a3dea3636419c5f04854d1c946, type: 2}
+  - {fileID: 199334, guid: 8e43377b25a1a7942bdf50d7f908d8a3, type: 2}
+  spawnPoints:
+  - {fileID: 103040}
+  - {fileID: 161100}
+  - {fileID: 179066}
+  - {fileID: 129474}
+  - {fileID: 176274}
+  - {fileID: 151460}
+  - {fileID: 170774}
+  - {fileID: 193586}
+  - {fileID: 189446}
+  pickUpSpawner: {fileID: 0}
+  asteroid1PooledAmount: 0
+  asteroid2PooledAmount: 0
+  asteroid3PooledAmount: 0
+  asteroid4PooledAmount: 0
+  asteroid5PooledAmount: 50
+  emptyStartDistance: 160
+  asteroidSpawner: {fileID: 411406, guid: fd18c6178515802429ab029d7e0d26a0, type: 2}
+  player: {fileID: 0}
+  distToReach: 57
+  spawnInterval: 57
+  fixedRows:
+  - desc: 
+    spawnPos1: E
+    spawnPos2: A5
+    spawnPos3: 
+    spawnPos4: 
+    spawnPos5: 
+    spawnPos6: 
+    spawnPos7: 
+    spawnPos8: A5
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: A5
+    spawnPos4: 
+    spawnPos5: 
+    spawnPos6: 
+    spawnPos7: A5
+    spawnPos8: 
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: 
+    spawnPos4: A5
+    spawnPos5: 
+    spawnPos6: A5
+    spawnPos7: 
+    spawnPos8: 
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: 
+    spawnPos4: 
+    spawnPos5: A5
+    spawnPos6: 
+    spawnPos7: 
+    spawnPos8: 
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: 
+    spawnPos4: 
+    spawnPos5: 
+    spawnPos6: 
+    spawnPos7: 
+    spawnPos8: 
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: A5
+    spawnPos4: A5
+    spawnPos5: A5
+    spawnPos6: A5
+    spawnPos7: A5
+    spawnPos8: 
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: 
+    spawnPos4: 
+    spawnPos5: 
+    spawnPos6: 
+    spawnPos7: 
+    spawnPos8: 
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: A5
+    spawnPos3: 
+    spawnPos4: 
+    spawnPos5: 
+    spawnPos6: 
+    spawnPos7: 
+    spawnPos8: A5
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: A5
+    spawnPos4: 
+    spawnPos5: 
+    spawnPos6: 
+    spawnPos7: A5
+    spawnPos8: 
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: 
+    spawnPos4: A5
+    spawnPos5: 
+    spawnPos6: A5
+    spawnPos7: 
+    spawnPos8: 
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: 
+    spawnPos4: 
+    spawnPos5: A5
+    spawnPos6: 
+    spawnPos7: 
+    spawnPos8: 
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: 
+    spawnPos4: 
+    spawnPos5: 
+    spawnPos6: 
+    spawnPos7: 
+    spawnPos8: 
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: A5
+    spawnPos3: 
+    spawnPos4: A5
+    spawnPos5: A5
+    spawnPos6: A5
+    spawnPos7: 
+    spawnPos8: A5
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: 
+    spawnPos4: 
+    spawnPos5: 
+    spawnPos6: 
+    spawnPos7: 
+    spawnPos8: 
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: A5
+    spawnPos3: 
+    spawnPos4: 
+    spawnPos5: 
+    spawnPos6: 
+    spawnPos7: 
+    spawnPos8: A5
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: A5
+    spawnPos4: 
+    spawnPos5: 
+    spawnPos6: 
+    spawnPos7: A5
+    spawnPos8: 
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: 
+    spawnPos4: A5
+    spawnPos5: 
+    spawnPos6: A5
+    spawnPos7: 
+    spawnPos8: 
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: 
+    spawnPos4: 
+    spawnPos5: A5
+    spawnPos6: 
+    spawnPos7: 
+    spawnPos8: 
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: 
+    spawnPos4: 
+    spawnPos5: 
+    spawnPos6: 
+    spawnPos7: 
+    spawnPos8: 
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: A5
+    spawnPos3: A5
+    spawnPos4: 
+    spawnPos5: A5
+    spawnPos6: 
+    spawnPos7: A5
+    spawnPos8: A5
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: 
+    spawnPos4: 
+    spawnPos5: 
+    spawnPos6: 
+    spawnPos7: 
+    spawnPos8: 
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: A5
+    spawnPos3: 
+    spawnPos4: 
+    spawnPos5: 
+    spawnPos6: 
+    spawnPos7: 
+    spawnPos8: A5
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: A5
+    spawnPos4: 
+    spawnPos5: 
+    spawnPos6: 
+    spawnPos7: A5
+    spawnPos8: 
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: 
+    spawnPos4: A5
+    spawnPos5: 
+    spawnPos6: A5
+    spawnPos7: 
+    spawnPos8: 
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: 
+    spawnPos4: 
+    spawnPos5: A5
+    spawnPos6: 
+    spawnPos7: 
+    spawnPos8: 
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: 
+    spawnPos4: 
+    spawnPos5: 
+    spawnPos6: 
+    spawnPos7: 
+    spawnPos8: 
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: A5
+    spawnPos3: A5
+    spawnPos4: A5
+    spawnPos5: P1
+    spawnPos6: A5
+    spawnPos7: A5
+    spawnPos8: A5
+    spawnPos9: E
+  - desc: 
+    spawnPos1: E
+    spawnPos2: 
+    spawnPos3: 
+    spawnPos4: 
+    spawnPos5: 
+    spawnPos6: 
+    spawnPos7: 
+    spawnPos8: 
+    spawnPos9: E
+--- !u!114 &11470028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ddfc93d871ea7840b7c8542213c0265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  zOffset: 1099
+--- !u!114 &11490716
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 132718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2ced650d53e4cc438fca2d0cadcca78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnablePickUps:
+  - {fileID: 152342, guid: ed4fa64fb9ced9f40b116b6a15e33c7f, type: 2}
+  - {fileID: 129184, guid: 1f6810e4de315094bb0784a77476550d, type: 2}
+  - {fileID: 175848, guid: ae38ac291ffb3fd47b0c49f58294d0b6, type: 2}
+  pickUpSpawnEffects:
+  - {fileID: 161698, guid: 6097d1d9926dfad4c8e6101f2bc084f0, type: 2}
+  - {fileID: 185032, guid: a0befa3ebeab0d1488737c272e6e2cd4, type: 2}
+  - {fileID: 125062, guid: 0ed359a8deb286349b3f5cf07c8ec86d, type: 2}
+  pickUpEffects:
+  - {fileID: 188496, guid: 9eaa7c3bd8c68b34a8601865b0ea1b94, type: 2}
+  - {fileID: 199334, guid: 451fa5341025f55469d708f8513d1bca, type: 2}
+  - {fileID: 177334, guid: 39a279d8feea55345bdfd60dc1174f11, type: 2}
+  spawnPoints:
+  - {fileID: 162266}
+  - {fileID: 147178}
+  - {fileID: 139684}
+  - {fileID: 174846}
+  - {fileID: 114306}
+  spawnTime: 0.75
+  despawnTime: 0.5
+  pickUpDuration: 6
+  timeBetweenPickups: 5
+  player: {fileID: 0}
+  pickUpPool: []
+  pickUpSpawnEffectPool: []
+  pickUpEffectPool: []
+  pickUp: {fileID: 0}
+  pickUpEffect: {fileID: 0}
+  shieldSlider: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 119610}
+  m_IsPrefabParent: 1
