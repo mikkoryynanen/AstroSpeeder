@@ -7,5 +7,4 @@ This is a public repository for Astro Speeder. Game was released on Android and 
 ![alt text](https://mikkoryynanen.weebly.com/uploads/2/9/3/1/29314681/2_orig.png)
 
 ## Gameplay
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=6eKCLYh1j5Q
-" target="_blank"><img src="http://img.youtube.com/vi/6eKCLYh1j5Q/0.jpg"  width="240" height="180" /></a>
+[![](http://img.youtube.com/vi/6eKCLYh1j5Q/0.jpg)](http://www.youtube.com/watch?v=6eKCLYh1j5Q "Astro Speeder")
